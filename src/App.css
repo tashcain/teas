@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.body{
+  width: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.navbar{
+  background-color: rgb(255, 245, 101);
+  z-index: 9;
+  position: fixed;
+  width: 100%;
+
+}
+.navbar-toggler-icon{
+  color: white;
+}
+
+
+.landimage{
+  background: url(./images/assamtea.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+}
+
+.skoko{
+  padding-top: 180px;
+  font-size: 50px ;
+  color: black;
+  font: bolder;
+  float: left;
+  padding-left: -10px;
+
+}
+
+.skoko p{
+  color: white;
+  padding-left: 150px;
+}
+
+
+
+/* .carousel{
+  background: pink;
+  height: 20%;
+  width:47%;
+  position: absolute;
+} */
+
+.carclass{
+  background: url('./images/leavesbg.JPG') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  display: grid;
+  grid-gap: 10px;
+}
+
+.cardiv{
+  margin-top: 34%;
+  margin-left: 11%;
+  height: 250px;
+  width: 400px;
+}
+
+.conte{
+  margin-top: 34%;
+  margin-left: 0;
+  text-align: left;
+}
+
+.d-block{
+  height: 20%;
+  width:47%;
+}
+
+@media(min-width:700px){
+  .carclass{
+    grid-template-columns: 1fr 1fr ;
+
+  }
+}
+
+
+@media(max-width:700px){
+
+  .landimage{
+    width: 600px;
+    height: 906px;
+  }
+  
+
+  .skoko{
+    padding-top: 242px;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    padding-left: 8px;
+    font: bolder;
+    float: left;
+    text-align: left;
+    padding-left: -10px;
+  }
+  .skoko p{
+    padding-left: 10px;
+    padding-top: 60px;
+  } 
+  .carclass{
+    
+    grid-template-rows: 1fr 1fr ;
+    height: 1160px;
+    width: 600px;
+  }
+
+  .conte{
+    margin-top:20px;
+    text-align: center;
+  }
+  .conte p{
+    font-size: 34px;
+  }
+  /* .carousel{
+    background: pink;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  } */
+
+  .cardiv{
+    margin: 20px 0 0 0 ;
+    /* height: 250px;
+    width: 400px; */
+    overflow: hidden;
+    width: 593px;
+    height: 389px;
+  }
+  body{
+    width: 500px;
+  }
+  
+}

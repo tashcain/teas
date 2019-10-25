@@ -1,0 +1,420 @@
+@import '~antd/dist/antd.css';
+body{
+    width: 100%;
+    background: wheat;
+}
+
+.cards{
+    background: pink;
+    height: 500px;
+    width: 100%;
+}
+
+.card{
+    display: grid;
+    padding-top: 146px;
+    grid-gap: 20px;
+    padding: 96px;
+    background: url('../images/bgcard1.JPG') no-repeat center center fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    
+}
+
+.shadow{
+    height: 200px;
+    text-align: left;
+
+}
+
+/* .cardiv{
+    padding-left: 100px;
+    background: pink;
+} */
+
+.serve{
+    padding-top: 30px;
+    
+}
+
+.footer{
+    display: grid ;
+    background: url('../images/footer.JPG');
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    
+    color: white;
+
+    display: grid;
+    height: 400px;
+}
+
+.about{
+    height: 300px;
+    color: white;
+}
+
+.search{
+    width: 343px;
+    padding-left: 100px;
+}
+
+.icon{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    padding-left: 81px;}
+.aboutcont h4{
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 6px;
+    text-align: left;
+    color: white;
+}
+
+.aboutcont p{
+    text-align: left;
+    padding-left: 100px;
+    
+}
+.aboutus{
+    padding-top: 100px;
+    height: auto;
+    background: url(../images//leavesbg02.JPG);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     background-blend-mode: soft-light;
+}
+
+.about_quote{
+    background: #964b00;
+    height: 150px;
+    width: 1085px;
+    border-radius: 17px;
+    margin-left: 3%;
+}
+
+.about_quote h4{
+    color: white;
+    font-size: 30px;
+    padding: 37px;
+}
+
+.about_since{
+    background:none;
+    height:auto;
+    width:1085px;
+    margin-left: 3%;
+    margin-top: 7%;
+    display: grid;
+}
+
+.about_since01{
+    background:none;
+    margin: 13%;
+    text-align: left;
+}
+
+.about_since h2 {
+   color: brown;
+}
+
+.about_own{
+    background:none;
+    display: grid;
+}
+
+
+
+.about_cards{
+    display: grid;
+}
+
+
+
+.aboutus01{
+    
+    margin-left: 6%;
+    width: 1165px;
+    background-color: rgba(255,255,255,0.5);
+
+}
+
+.aboutus01 p{
+    font-size: 24px;
+    text-align: left;
+   
+}
+
+.prod{
+    padding-top: 100px;
+    background: url(../images//leavesbg02.JPG);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     grid-gap: 20px;
+     display: grid;
+     background-blend-mode: soft-light;
+    /* display: grid;
+    grid-template-columns: auto auto auto; 
+    grid-gap: 20px;
+    align-items: center; */
+}
+.ant-card-hoverable {
+    
+    margin-left: 49px;
+}
+
+.ant-card{
+    width: 286px !important;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.tgt{
+    padding-top: 100px;
+    background: url(../images//leavesbg02.JPG);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     height: 100%;
+}
+
+.tht01{
+    margin-left: 200px;
+    width: 700px;
+    
+    background-color: rgba(255,255,255,0.5);
+    text-align: left;
+}
+
+.tht01 li{
+    font-size: 20px;
+}
+
+.tht01 p{
+    font-size: 26px;
+}
+
+.tht02{
+    margin-left: 200px;
+    width: 820px;
+    background-color: rgba(255,255,255,0.5);
+    text-align: left;
+}
+
+
+
+
+
+
+
+.tht02 p{
+    font-size: 26px;
+}
+@media(max-width:700px){
+    .cards{
+        width: 500px;           
+    }
+    .serve{
+        width: 600px;
+    }
+    .card{
+        width:  600px;
+    }
+
+    .body{
+        width: 600px;
+    }
+
+    .shadow{
+        height: 300px;
+        width: 400px;
+    }
+
+    .footer{
+        grid-template-rows: 1fr 0.1fr 1fr;
+    width: 600px;
+    height: 1305px;
+    grid-gap: 1px;
+    }
+    .aboutcont p{
+        font-size: 34px;
+    }
+    .aboutcont h4{
+        font-size: 55px;
+    }
+
+    .aboutus{
+        width: 600px;
+        height: auto;
+
+    }
+    .aboutus01{
+        width: 479px;
+        margin: 56px;
+        }
+
+    .aboutus h4{
+        font-size: 26px;
+    }    
+
+     .aboutus p{
+         font-size:32px;
+     }   
+
+     .prod{
+        width: 600px;  
+        grid-template-rows: 1fr 1fr 1fr; 
+        grid-gap:20px;
+        padding-top: 20px;
+        align-items: center;
+     }
+
+     .ant-card{
+        width: 456px !important;
+    height: 623px;
+    border-radius: 20px;
+    margin-left: 13%;
+    margin-top: 13%;
+     }
+
+     .cardsize{
+         height: 435px;
+     }
+
+     .about_quote{
+        height: 10%;
+        width: 94%;
+     }
+
+     .about_since{
+         height: 10%;
+         width: 10%;
+     }
+
+     .about_since img{
+        height: 456px;
+    width: 446px;
+    border-radius: 20px;
+
+    
+    }
+
+     .about_cards{
+        grid-template-rows: auto auto auto auto ;
+     }
+
+     .about_card01{
+        border-radius: 20px;
+    background: wheat;
+    height: 273px;
+    width: 433px;
+    margin: 4%;
+    padding: 6%;
+    }
+
+    .about_own img{
+        height: 100%;
+        width: 95%;
+    }
+
+    .about_own01{
+        width: 91%;
+    text-align: center;
+    }
+
+    .about_own01 p{
+        text-align: center;
+    }
+
+    .about_own02{
+        display: none;
+    }
+     
+}
+
+
+@media(min-width: 700px){
+    
+    .prod{
+    grid-template-columns: auto auto auto; 
+    grid-gap: 20px;
+    
+    }
+
+    .card{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .footer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .aboutcont h4{
+        font-size: 26px;
+    }
+    
+.cardsize:hover {
+    height:400px;
+    width: 300px; 
+    border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: height 2s ease-out;
+  -moz-transition: height 2s ease-out;
+  -o-transition: height 2s ease-out;
+  transition: height 2s ease-out;
+
+}
+
+.about_since{
+    grid-template-columns: auto auto;
+}
+
+.about_since img{
+    height: 400px;
+     width: 500px;
+     border-radius:20px;
+
+}
+
+.about_own{
+    grid-template-columns: auto auto;
+    text-align: left;
+    grid-gap: 20px;
+    height:auto;
+    width:1085px;
+    margin-left: 3%;
+    margin-top: 7%;
+}
+
+.about_own img{
+    height: 400px;
+  width: 500px;
+     borderRadius:20px;
+}
+
+.about_own02{
+    background: none;
+    width:1085px;
+    margin-left: 3% ;
+}
+
+
+
+.about_cards{
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-gap: 10px;
+    width: 1085px;
+    margin: 8%;
+}
+
+.about_card01{
+    border-radius: 20px;
+    background:wheat;
+    height: 223px;
+    width: 250px;
+}
+
+}
