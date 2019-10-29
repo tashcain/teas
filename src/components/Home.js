@@ -11,6 +11,9 @@ export default class Home extends Component {
         return (
             <div>
             <Landingimg/>
+            <div className=" containerfluid landsep">
+                hello
+            </div>
       <div className='carclass'>
        <div>
        <Carousel/>
